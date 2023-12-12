@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/436105-fundo-de-previsao-do-tempo-sem-emenda-vetor.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-maior {
+    background-color: #5ED3EB;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 450px;
+    width: 95%;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #ffff;
+    color: black;
+    width: calc(100% - 80px);
+}
+
+.button-buscar {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #ffff;
+    float: right;
+}
+
+.img-buscar {
+    width: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: black;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    color: black;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: black;
+    margin-top: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.umidade img {
+    margin-right: 5px;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoseDev - Previsão Do Tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Previsão Do Tempo</h1>
+    </div>
+
+        <div class="caixa-maior">
+            <input class="input-cidade" type="text" placeholder="Digite o nome da cidade">
+            <button class="button-buscar" onclick="cliqueiNoBotão()" type="button">
+                <img class="img-buscar" src="https://www.svgrepo.com/show/488200/find.svg" alt="imagem lupa">
+            </button>
+    
+            <div class="caixa-media">
+                <h2 class="cidade">Tempo Em São Paulo</h2>
+    
+            <p class="temp">
+                21° C
+            </p>
+            </div>
+    
+            <div class="caixa-menor">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone de informação tempo">
+                <p class="texto-previsao">Nublado</p>
+            </div>
+    
+            <div class="umidade">
+                <img src="./image/droplet.svg" alt=""> 
+                <p class="umidade-esc">
+                    Umidade: 76%
+                </p>
+            </div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
